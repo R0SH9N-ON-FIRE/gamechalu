@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roshan Shooter Game</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <audio autoplay loop>
+        <source src="/static/bgm.mp3" type="audio/mpeg">
+    </audio>
+</head>
+<body>
+    <h1 class="rainbow">🔥 ROSHAN SHOOTER GAME 🔥</h1>
+    <p class="tagline">🎮 Click to Shoot or Skip | Hindi-English UI | Cinematic Web</p>
+
+    <div class="target-box">
+        <h2>🎯 Target: {{ target }}</h2>
+        <form method="POST">
+            <button name="action" value="shoot">🔫 Shoot</button>
+            <button name="action" value="skip">⏭️ Skip</button>
+        </form>
+        {% if result %}
+            <h3 class="result">{{ result }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
