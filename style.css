@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #111, #222);
+    color: white;
+    padding: 30px;
+}
+
+.rainbow {
+    font-size: 2.5em;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.target-box {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+button {
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #00ffcc;
+}
